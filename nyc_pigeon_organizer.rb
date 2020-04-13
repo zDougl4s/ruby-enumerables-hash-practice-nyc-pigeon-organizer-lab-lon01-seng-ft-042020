@@ -2,6 +2,10 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   # write your code here!
-  data
+  pigeon-list = {}
+  data.map |categories| do
+    categories
+  end
+
   binding.pry
 end
