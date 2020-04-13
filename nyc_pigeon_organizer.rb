@@ -14,6 +14,8 @@ def nyc_pigeon_organizer(data)
         pigeon_list[name][color_gender_lives] = []
         binding.pry
       end
+      if pigeon_list[name][color_gender_lives] == []
+        pigeon_list[name][color_gender_lives]<< stats.to_s
       end
     end
   end
