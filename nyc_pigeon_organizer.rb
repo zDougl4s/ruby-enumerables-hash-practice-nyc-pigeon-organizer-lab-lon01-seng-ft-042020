@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     value.each do |stats, names|
       lala = []
       lala << names
+      binding.pry
     end
-    binding.pry
   end
 end
