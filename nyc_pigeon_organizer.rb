@@ -5,9 +5,10 @@ def nyc_pigeon_organizer(data)
   # subway = data[:lives]["Subway"]
   data.each do |color_gender_lives, value|
     value.each do |stats, names|
-      lala = []
-      lala << names
-      binding.pry
+      names.each do |name|
+        name
+        binding.pry
+      end
     end
   end
 end
