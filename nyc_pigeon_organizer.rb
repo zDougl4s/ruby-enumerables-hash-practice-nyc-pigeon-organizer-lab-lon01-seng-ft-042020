@@ -11,11 +11,18 @@ def nyc_pigeon_organizer(data)
         pigeon_list[name]={}
         binding.pry
       end
+      if pigeon_list[name][color_gender_lives] == nil
+        pigeon_list[name][color_gender_lives]=[]
+      end
       end
     end
   end
 end
 
 lala = {
-  "javier": {}
+  "javier": {
+    color_gender_lives: value,
+    color_gender_lives: value,
+    color_gender_lives: value
+  }
 }
